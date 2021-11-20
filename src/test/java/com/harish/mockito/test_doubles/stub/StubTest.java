@@ -19,7 +19,7 @@ public class StubTest {
         bookService.getNewBooksWithAppliedDiscount(5,5);
 
         assertEquals(2,newBooksWithDiscount.size());
-        assertEquals(200,newBooksWithDiscount.get(1).getPrice());
+        assertEquals(400,newBooksWithDiscount.get(1).getPrice());
 
     }
 }
